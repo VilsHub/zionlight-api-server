@@ -1,1 +1,0 @@
-// JS codes for error block page

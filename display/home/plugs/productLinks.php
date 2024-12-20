@@ -1,1 +1,0 @@
-<!-- Link elements for product page goes here -->

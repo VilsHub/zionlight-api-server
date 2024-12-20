@@ -12,17 +12,8 @@ $classDir           = $libDir ."/classes/application";
 $setupDir           = $root."/setup";
 $miscDir            = $mainDir."/misc";
 $logsDir            = $root."/logs";
-$publicDir          = $root."/public";
 
 $appMainDir         = $mainDir;
-
-//Display Directories
-$displayDir         = $root."/display";
-$contentsDir        = "contents";
-$loadDirName        = $contentsDir."/load";
-$xhrDirName         = $contentsDir."/xhr";
-$plugsDir           = "plugs";
-$fragmentsDir       = "fragments";
 
 //Other Libraries Directories
 $traitsDir          = $libDir ."/traits/application";
@@ -45,17 +36,6 @@ $vendorDir          = $mainDir."/lib/vendor";
 
 //System Application
 $appsDataDir        = $mainDir."/data";
-$appsPublicDir      = $mainDir."/public/apps/";
-
-//assets links
-$assetLinks         = [ 
-    "dev"   => [
-        "vUx" => "http://library.vilshub.com/lib/vUX/4.0.0/",
-    ],
-    "live"  => [
-        "vUx" => "/library/vUx/vUX-4.0.0.beta.js",
-    ]
-];
 
 //Misc Files
 $miscFiles          = [
@@ -83,10 +63,6 @@ return (object) [
     "mainDir"           => $mainDir,
     "appRootDir"        => $root,
     "appMainDir"        => $mainDir,
-    "displayDir"        => $displayDir , 
-    "contentsFolder"    => (object) ["load"=>$loadDirName, "xhr"=>$xhrDirName],
-    "plugsDir"          => $plugsDir,
-    "fragmentsDir"      => $fragmentsDir,
     "modelsDir"         => $modelsDir,
     "controllersDir"    => $controllersDir,
     "queriesBankDir"    => $queriesDir,
@@ -99,8 +75,6 @@ return (object) [
     "dataDir"           => $dataDir,
     "vendorDir"         => $vendorDir,
     "appsDataDir"       => $appsDataDir,
-    "appPublicDir"      => $appsPublicDir,
-    "publicDir"         => $publicDir,
 
     // Suffixes
     "modelFileSuffix"   => "Model",
@@ -118,8 +92,6 @@ return (object) [
     //Log file
     "logFile"           => $logFile,
 
-    //AssetLinks
-    "assetLinks"        => (object) $assetLinks,
 
     //API ID
     "apiId"             => "api", //To identify xhr request

@@ -1,11 +1,11 @@
 # Zion Light
-A PHP framework, based on MRD (Model Route Display), an extension of the MVC Model
+A PHP framework, based on MRD (Model Route Display), an extension of the MVC Model, for only API server
 
 
 ## Installation
 It supports composer installation, with link:
 ```
-composer create-project --prefer-dist vilshub/zionlight yourProjectName dev-master
+composer create-project --prefer-dist vilshub/zionlight-api-server yourProjectName dev-master
 ```
 
 ### Quick guide
