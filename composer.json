@@ -1,5 +1,5 @@
 {
-  "name": "vilshub/zionlight",
+  "name": "vilshub/zionlight-api-server",
   "description": "An MRD (Model Route Display) based model for creating fast and light web apps",
   "type": "project",
   "license": "MIT",
