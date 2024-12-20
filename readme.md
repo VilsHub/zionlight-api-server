@@ -1,5 +1,5 @@
 # Zion Light
-A PHP framework, based on MRD (Model Route Display), an extension of the MVC Model, for only API server
+An MRC (Model Route Controller) PHP framework, for API server
 
 
 ## Installation
@@ -23,10 +23,8 @@ composer create-project --prefer-dist vilshub/zionlight-api-server yourProjectNa
   ![Zion light commands](https://i.imgur.com/E8WpQKs.png)
 
 ## Features ##
-Aside from the conventional features which backend frameworks have, zlight has the following features:
+Aside from the conventional features which backend frameworks have, zlight-api-server has the following features:
 
-- Partial routing definition for contents (Not API)
-- Plug and socket algorithm for extending layout. (No templating, just plain HTML)
 - Plain SQL Schema builder, and plain SQL query executor. (No ORM, only SQL skills required)
 - Queries Bank. All queries for a particular model gets stored in a single bank file for easy management
 - Table data export and import, via CLI

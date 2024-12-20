@@ -1,6 +1,6 @@
 {
   "name": "vilshub/zionlight-api-server",
-  "description": "An MRD (Model Route Display) based model for creating fast and light web apps",
+  "description": "An MRC (Model Route Controller) PHP framework, for API server",
   "type": "project",
   "license": "MIT",
   "authors": [
